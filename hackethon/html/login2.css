@@ -1,0 +1,220 @@
+body {
+  background-image: url('partners.jpg'); /* Replace 'bgimg1.jpg' with the path to your background image */
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 100vh; /* You can adjust this based on your preference */
+  opacity: 100; /* Adjust the opacity as needed */
+}
+
+.sibtn {
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+.title {
+  position: absolute;
+  left: 50px;
+}
+
+#navbar{
+    margin: 0px;
+    height: 10rem;
+    align-content: center;
+    background-color: rgba(20, 239, 0, 0.305); 
+  }
+
+.navbar {
+  background-color: transparent; /* Make the navbar background transparent */
+  position: fixed;
+  top: 0; /* Place the navbar at the top of the page */
+  left: 0; /* Stretch it across the entire width */
+  z-index: 999; /* Ensure the navbar stays on top of other content */
+
+  
+  
+
+}
+
+.content {
+/* background-color: yellow; */
+  width: 50%;
+  float: left;
+  /* margin-left: 2px; Adjust as needed */
+}
+.whatT{
+  text-align: center;
+  height: 2rem;
+width: 100%;
+margin-top: 28rem;
+}
+.content p {
+  font-size: 24px; /* Adjust as needed */
+
+
+body {
+  margin-top: 56px; /* Adjust as needed based on your navbar height */
+}
+}
+
+h1{
+  color: blueviolet;
+  
+}
+.cont{
+ background: url(img12.jpg);
+ height: 100%;
+ background-size: cover;
+ 
+}
+
+.cards-container{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 1.5rem;
+}
+
+.card-img{
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.card-title{
+  font-weight: 600;
+}
+#card{
+    width: 18rem;
+  }
+
+.card{
+
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-body{
+ text-align: center;
+}
+
+.topmain{
+  width: 500px;
+  background-color: yellow;
+}
+.card:hover{
+    box-shadow: 2px 5px 5px;
+  }
+
+
+h1{
+  color: blueviolet;
+  
+}
+#btn{
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+  }
+  .btn{
+    width: 5rem;
+    font-size: 0.5rem;
+    margin-bottom: 5px;
+  }
+  .btn:hover{
+    background-color: black;
+    color: white;
+  }
+
+
+
+.cont{
+ background: url(img12.jpg);
+ height: 100%;
+ background-size: cover;
+ 
+}
+
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1.5rem;
+}
+
+.card-img{
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.card-title{
+  font-weight: 600;
+}
+
+.card{
+  width: 150px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-body{
+ text-align: center;
+}
+
+
+@media screen and (max-width: 900px) {
+    #comate{
+      font-size: 18px;
+    }
+    #sibtn{
+      width: 4rem;
+      font-size: 0.9rem;
+    }
+    body {
+        font-size: 5px; /* Decrease font size for smaller screens */
+    }
+
+    .container {
+        width: 60%; /* Adjust container width for smaller screens */
+    }
+
+    .content {
+      font-weight: 600;
+      /* background-color: rgba(0, 0, 255, 0.234); */
+      text-align: center;
+      
+        width: 100%; /* Full width for smaller screens */
+        margin-left: 0; /* No margin for smaller screens */
+    }
+
+    #card{
+      width: 10rem;
+      height: 18rem;
+    }
+  .card {
+
+       
+        height: 40px;/* Full width for cards on smaller screens */
+        margin: 1rem 0; /* Adjust margin for smaller screens */
+    }
+    .card-title{
+      margin-top: 2px;
+      font-size: 0.8rem;
+    }
+    .content p {
+     
+      font-size: 18px; /* Adjust as needed */
+    
+    
+    body {
+      margin-top: 50rem; /* Adjust as needed based on your navbar height */
+  }
+    }
+
+    .btn{
+      width: 3rem;
+    }
+    .whatT{
+      margin-top: 24rem ;
+    }
+}

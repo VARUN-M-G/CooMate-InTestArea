@@ -1,0 +1,10 @@
+body {
+    background-image: url('bgimg1.jpg'); /* Replace 'your-image-path.jpg' with the path to your background image */
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: auto; /* You can adjust this based on your preference */
+}
+
+.navbar {
+    background-color: transparent; /* Make the navbar background transparent */
+}

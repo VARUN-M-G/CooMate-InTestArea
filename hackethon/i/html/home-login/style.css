@@ -1,0 +1,10 @@
+h1{
+  color: blueviolet;
+  
+}
+.cont{
+ background: url(aa.jpeg);
+ height: 100vh;
+ background-size: cover;
+ 
+}
